@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 120px;
+    padding: 0 30px;
+    height: 70px;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.specify{
+    color: #FD6E0A;
+}
+.btn-primary{
+    
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 64px;
+    width: 150px;
+    border-style: solid;
+    box-shadow: none;
+    cursor: pointer;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.dark-2{
+    color: #474747;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px 0 120px;
+}
+.banner-content{
+    max-width: 720px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 60px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+.banner-description{
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    
+}
+.gapping{
+    margin-left: 30px;
+    color: #FD6E0A;
+    background-color: white;
+    border-width: 2px;
+    border-color: #FD6E0A;
+    border-style: solid;
+}
+.section-title{
+    font-size: 35px;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 60px;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.about{
+    border-radius: 10px;
+    padding: 100px 150px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 500;
+}
+.item-title{
+    font-weight: bold;
+}
+
+.align-center{
+    text-align: center;
+}
+.skills{
+    padding : 50px;
+}
+.skills-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.skill{
+    border-radius: 10px;
+    max-width: 200px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+}
+main section{
+    margin-bottom: 100px;
+}
+.skill:hover{
+    background: #FFF8F3;
+    transition: 0.7s;
+    box-shadow: 0px 6px 50px 0px rgba(197, 68, 8, 0.6);
+}
+.resume-container{
+    margin-top: 30px;
+    display: flex;
+    gap: 24px;
+    line-height: 40px;
+    margin-bottom: 0px;
+    
+}
+.experience-description{
+    font-size: 16px;
+    line-height: 24px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.experience-sub-title{
+    font-weight: 500;
+    font-size: 20px;
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+.download{
+    margin-top: 5px;
+}
+.resume-column-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-title{
+    margin-bottom: 80px;
+    font-size: 35px;
+}
+.footer{
+    height: 780px;
+    display: flex;
+    gap: 130px;
+}
+.footer-column{
+    width: 50%;
+    padding: 130px 100px;
+}
+.let-connect{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.connect-description{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+#name, #email, #message{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 360px;
+}
+i{
+    color: #FD6E0A;
+    margin: 20px 10px;
+    font-size: 25px;
+}
